@@ -8,7 +8,7 @@ function getArrayParams(...arr) {
 	}
 	generalDataObject.avg = +(sum / arr.length).toFixed(2);
 
-	return (generalDataObject);
+	return generalDataObject;
 }
 
 function summElementsWorker(...arr) {
